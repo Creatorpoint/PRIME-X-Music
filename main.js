@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 });
 
 // Add your bot token here.
-const BOT_TOKEN = "8240026930:AAEYQW99SGlq5jj2yqOEwV0wVdS0wcKMDXs";
+const BOT_TOKEN = "8240026930:AAGhSfwaLu7d_ATBNqcIl69AKScjetr1_qE";
 
 //Pro people: don't change this else your bot will be fucked.
 const API_BASE_URL = "https://metropolitan-loise-vibeshiftbot-f38d853c.koyeb.app";
@@ -353,7 +353,7 @@ async function playSong(chatId, song, processingMsg) {
       const keyboard = getPlaybackKeyboard();
       keyboard.inline_keyboard.push([
         { text: "✨ Updates ✨", url: "https://t.me/Primexmusicupdate" },
-        { text: "💕 Support 💕", url: "https://t.me/PRIMEXTOUR" }
+        { text: "💕 Support 💕", url: "https://t.me/PRIME_X_CHAT2" }
       ]);
       const caption = `**ғʀᴏᴢᴇɴ ✘ ᴍᴜsɪᴄ ση sᴛʀєᴧϻɪηɢ ⏤͟͞●**\n\n` +
                       `**❍ ᴛɪᴛʟє ➥** ${song.title}\n\n` +
